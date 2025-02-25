@@ -52,6 +52,11 @@
   id: ClothingUniformJumpskirtWardenGrey
   result: ClothingUniformJumpskirtWardenGrey
 
+- type: latheRecipe
+  parent: BaseJumpsuitRecipe
+  id: ClothingUniformJumpskirtPrisonGuard
+  result: ClothingUniformJumpskirtPrisonGuard
+
 # Security Sweater
 
 - type: latheRecipe
@@ -113,6 +118,69 @@
   parent: BaseCommandCoatRecipe
   id: ClothingOuterChiefJustice
   result: ClothingOuterChiefJustice
+
+# Salvage Specialist
+
+- type: latheRecipe
+  parent: BaseJumpsuitRecipe
+  id: ClothingUniformJumpskirtSalvageSpecialist
+  result: ClothingUniformJumpskirtSalvageSpecialist
+
+# Administrative Assistant
+
+- type: latheRecipe
+  parent: BaseCommandJumpsuitRecipe
+  id: ClothingUniformJumpsuitAdminAssistant
+  result: ClothingUniformJumpsuitAdminAssistant
+
+- type: latheRecipe
+  parent: BaseCommandJumpsuitRecipe
+  id: ClothingUniformJumpskirtAdminAssistant
+  result: ClothingUniformJumpskirtAdminAssistant
+
+# Command Hats
+
+- type: latheRecipe
+  parent: BaseCommandHatRecipe
+  id: ClothingHeadHatBeretCap
+  result: ClothingHeadHatBeretCap
+
+- type: latheRecipe
+  parent: BaseCommandHatRecipe
+  id: ClothingHeadHatBeretMysta
+  result: ClothingHeadHatBeretMysta
+
+- type: latheRecipe
+  parent: BaseCommandHatRecipe
+  id: ClothingHeadHoodMysta
+  result: ClothingHeadHoodMysta
+
+- type: latheRecipe
+  parent: BaseCommandHatRecipe
+  id: ClothingHeadHatBeretLogi
+  result: ClothingHeadHatBeretLogi
+
+#Centcomm Clothing
+
+- type: latheRecipe
+  parent: BaseHatRecipe
+  id: ClothingHeadHatBeretCentcomm
+  result: ClothingHeadHatBeretCentcomm
+
+- type: latheRecipe
+  parent: BaseCommandJumpsuitRecipe
+  id: ClothingUniformJumpskirtCentcomAgent
+  result: ClothingUniformJumpskirtCentcomAgent
+
+- type: latheRecipe
+  parent: BaseCommandJumpsuitRecipe
+  id: ClothingUniformJumpskirtCentcomOfficer
+  result: ClothingUniformJumpskirtCentcomOfficer
+
+- type: latheRecipe
+  parent: BaseCommandJumpsuitRecipe
+  id: ClothingUniformJumpskirtCentcomOfficial
+  result: ClothingUniformJumpskirtCentcomOfficial
 
 #Syndicate Clothing
 
@@ -193,6 +261,26 @@
   parent: BaseCommandJumpsuitRecipe
   id: ClothingUniformJumpskirtHoPFormal
   result: ClothingUniformJumpskirtHoPFormal
+
+- type: latheRecipe
+  parent: BaseJumpsuitRecipe
+  id: ClothingUniformJumpskirtChemShirt
+  result: ClothingUniformJumpskirtChemShirt
+
+- type: latheRecipe
+  parent: BaseJumpsuitRecipe
+  id: ClothingUniformJumpsuitChemShirt
+  result: ClothingUniformJumpsuitChemShirt
+
+- type: latheRecipe
+  parent: BaseJumpsuitRecipe
+  id: ClothingUniformJumpsuitScientistFormal
+  result: ClothingUniformJumpsuitScientistFormal
+
+- type: latheRecipe
+  parent: BaseJumpsuitRecipe
+  id: ClothingUniformJumpskirtScientistFormal
+  result: ClothingUniformJumpskirtScientistFormal
 
 # Utilty
 

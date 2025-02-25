@@ -19,6 +19,7 @@
   - CigarCase
   - CigarGold
   - ClothingNeckLGBTPin
+  - ClothingNeckAllyPin
   - ClothingNeckAromanticPin
   - ClothingNeckAsexualPin
   - ClothingNeckBisexualPin
@@ -28,6 +29,7 @@
   - ClothingNeckNonBinaryPin
   - ClothingNeckPansexualPin
   - ClothingNeckOmnisexualPin
+  - ClothingNeckGenderqueerPin
   - ClothingNeckTransPin
   - ClothingNeckAutismPin
   - ClothingNeckGoldAutismPin
@@ -55,6 +57,7 @@
   - WhiteCane
   - CDDogtags # taken from Cosmatic Drift
   - TapeRecorder
+  - ClothingHeadHatUshanka
   # End DeltaV Additions
 
 - type: loadoutGroup
@@ -84,6 +87,7 @@
   - EmergencyNitrogen
   - EmergencyOxygen
   - LoadoutSpeciesVoxNitrogen
+  - EmergencyIPCBox # DeltaV
 
 - type: loadoutGroup
   id: GroupEVATank
@@ -178,9 +182,14 @@
   id: HoPBackpack
   name: loadout-group-hop-backpack
   loadouts:
-  - CommonBackpack
-  - CommonSatchel
-  - CommonDuffel
+  # Start DeltaV changes
+  # - CommonBackpack
+  # - CommonSatchel
+  # - CommonDuffel
+  - BackpackHoP 
+  - SatchelHoP 
+  - HopDuffel 
+  # End of DeltaV changes
   - HoPBackpackIan
 
 - type: loadoutGroup
@@ -968,6 +977,8 @@
   # End DeltaV changes
   - SeniorResearcherJumpsuit
   - SeniorResearcherJumpskirt
+  - FormalScientistJumpsuit # DeltaV - more jumpskirts
+  - FormalScientistJumpskirt # DeltaV - more jumpskirts
 
 - type: loadoutGroup
   id: ScientistBackpack
@@ -1360,6 +1371,7 @@
   - ChemistJumpsuit
   - ChemistJumpskirt
   - ChemistFormalSuit # DeltaV
+  - ChemistFormalSkirt # DeltaV - more jumpskirts
 
 - type: loadoutGroup
   id: ChemistOuterClothing
