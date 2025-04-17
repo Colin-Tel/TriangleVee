@@ -1,28 +1,6 @@
 ﻿Entries:
 - author: Radezolid
   changes:
-  - message: Now cargo technicians can approve orders.
-    type: Tweak
-  id: 769
-  time: '2024-12-14T02:01:24.0000000+00:00'
-  url: https://github.com/DeltaV-Station/Delta-v/pull/2356
-- author: Lyndomen
-  changes:
-  - message: Clarifies that Sec/Command/Justice are required to follow IC documents
-      in good faith
-    type: Tweak
-  id: 770
-  time: '2024-12-14T21:18:29.0000000+00:00'
-  url: https://github.com/DeltaV-Station/Delta-v/pull/2442
-- author: deltanedas
-  changes:
-  - message: Fixed Vox gladiators not spawning with nitrogen tanks.
-    type: Fix
-  id: 771
-  time: '2024-12-15T03:03:43.0000000+00:00'
-  url: https://github.com/DeltaV-Station/Delta-v/pull/2446
-- author: Radezolid
-  changes:
   - message: Added a new janitorial job title, select it from your loadout.!
     type: Add
   id: 772
@@ -4042,3 +4020,30 @@
   id: 1268
   time: '2025-04-16T03:48:52.0000000+00:00'
   url: https://github.com/DeltaV-Station/Delta-v/pull/3475
+- author: Oxdeception
+  changes:
+  - message: The AAC Tablet can now combine phrases into a single message!
+    type: Add
+  id: 1269
+  time: '2025-04-16T15:55:24.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3461
+- author: EmoGarbage404
+  changes:
+  - message: Adds departmental economy! All departments now have custom request consoles
+      where they can order from cargo and make money transfers.
+    type: Add
+  - message: Added lock boxes. These are access-locked crates that allow a department
+      to earn sole income when they are sold. Order more from cargo.
+    type: Add
+  - message: Slightly increased passive station income.
+    type: Tweak
+  id: 1270
+  time: '2025-04-16T22:05:13.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3458
+- author: whatston3, foxcurl
+  changes:
+  - message: Harpies can no longer have their instruments changed by other people.
+    type: Fix
+  id: 1271
+  time: '2025-04-16T22:13:15.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/3485
