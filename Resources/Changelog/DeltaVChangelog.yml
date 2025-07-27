@@ -1,20 +1,6 @@
 ﻿Entries:
 - author: deltanedas
   changes:
-  - message: Fixed nukie medic and commander not having gear.
-    type: Fix
-  id: 1041
-  time: '2025-02-15T19:49:35.0000000+00:00'
-  url: https://github.com/DeltaV-Station/Delta-v/pull/2983
-- author: Eternally-Confused
-  changes:
-  - message: returned the IPC "whirr" and "boop" emotes
-    type: Fix
-  id: 1042
-  time: '2025-02-16T18:09:08.0000000+00:00'
-  url: https://github.com/DeltaV-Station/Delta-v/pull/2985
-- author: deltanedas
-  changes:
   - message: Fixed uplink's objectives tab not existing.
     type: Fix
   id: 1043
@@ -4143,3 +4129,28 @@
   id: 1540
   time: '2025-07-26T09:58:06.0000000+00:00'
   url: https://github.com/DeltaV-Station/Delta-v/pull/4084
+- author: AlgisAlphonse
+  changes:
+  - message: Ported Goobstation automation, including a guidebook entry! Featuring
+      the robotic arm, interactor, constructor and filters! Also the automation upgrade
+      kit! Note, at the moment automation is limited - you can't automate lathe production,
+      only inserting materials into the lathe. Nonetheless, have fun!
+    type: Add
+  - message: Added a guidebook entry for automation. Mostly based on the Goobstation
+      entry, with some rewriting. If you spot error, please report them!
+    type: Add
+  id: 1541
+  time: '2025-07-27T12:31:36.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/4035
+- author: TehFlaminTaco
+  changes:
+  - message: Modified Glimmer Probers, they now generate more Glimmer and Research
+      based on the current Glimmer.
+    type: Tweak
+  - message: Glimmer Probers no-longer automatically lock themselves at 500 glimmer.
+    type: Tweak
+  - message: Added a new Glimmer Event which locks some Glimmer Probes.
+    type: Add
+  id: 1542
+  time: '2025-07-27T18:42:26.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/4082
