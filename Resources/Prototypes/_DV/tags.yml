@@ -142,6 +142,9 @@
   id: MothroachHide
 
 - type: Tag
+  id: Natural
+
+- type: Tag
   id: NormalityCrystal
 
 - type: Tag
@@ -215,3 +218,6 @@
 
 - type: Tag
   id: BeamDevastator
+
+- type: Tag # Ovinia, allows them to use specified emotes
+  id: OviniaEmotes
