@@ -1,78 +1,4 @@
 ﻿Entries:
-- author: AftrLite
-  changes:
-  - message: NEW GAMEMODE - Get ready to cult, the Cosmic Cult is now in rotation!
-    type: Add
-  - message: The Cosmic Cult can now transfigure Cyborgs into Entropic Colossi.
-    type: Add
-  - message: The Cosmic Cult's victory is less underwhelming now.
-    type: Add
-  - message: Miscellaneous fixes and polish to cosmic cult features, including changes
-      based on community feedback!
-    type: Fix
-  id: 1431
-  time: '2025-05-24T16:39:57.0000000+00:00'
-  url: https://github.com/DeltaV-Station/Delta-v/pull/3811
-- author: Radezolid
-  changes:
-  - message: Change to SOP, Captains now have to publicly announce the change they
-      made to SOP for better accountability.
-    type: Tweak
-  id: 1432
-  time: '2025-05-25T00:06:17.0000000+00:00'
-  url: https://github.com/DeltaV-Station/Delta-v/pull/3794
-- author: This_Is_Gray
-  changes:
-  - message: The conveyor belts have been made actually decent. No more eternally
-      rotating books in disposals.
-    type: Fix
-  - message: There's now a unique background specific to Elegance.
-    type: Add
-  id: 1433
-  time: '2025-05-27T17:04:49.0000000+00:00'
-  url: https://github.com/DeltaV-Station/Delta-v/pull/3828
-- author: AftrLite
-  changes:
-  - message: Entropic Colossi now have randomly-generated names!
-    type: Add
-  - message: Cosmic Cult r1.01. Various tweaks and polish.
-    type: Tweak
-  - message: The Cosmic Void pocket dimension is now larger. Less overcrowding in
-      postround!
-    type: Fix
-  id: 1434
-  time: '2025-05-28T04:40:24.0000000+00:00'
-  url: https://github.com/DeltaV-Station/Delta-v/pull/3851
-- author: Eternally-Confused
-  changes:
-  - message: Chief Justices now have Cryosleep access
-    type: Tweak
-  id: 1435
-  time: '2025-05-29T13:40:22.0000000+00:00'
-  url: https://github.com/DeltaV-Station/Delta-v/pull/3859
-- author: portfiend
-  changes:
-  - message: 'New plushies: Felinid, Oni, Harpy, Rodentia, Feroxi, Chitinid, Kitsune.'
-    type: Add
-  - message: Ported Thaven plushie from Impstation, courtesy of ATDoop.
-    type: Add
-  id: 1436
-  time: '2025-05-29T14:05:41.0000000+00:00'
-  url: https://github.com/DeltaV-Station/Delta-v/pull/3850
-- author: Quanteey
-  changes:
-  - message: Added Trinoxadone, a broad spectrum cryo medicine.
-    type: Add
-  id: 1437
-  time: '2025-05-29T23:20:55.0000000+00:00'
-  url: https://github.com/DeltaV-Station/Delta-v/pull/3824
-- author: AftrLite
-  changes:
-  - message: Fixed a bug with Vacuous Chantries were MMI Borgs would break everything.
-    type: Fix
-  id: 1438
-  time: '2025-05-30T13:35:43.0000000+00:00'
-  url: https://github.com/DeltaV-Station/Delta-v/pull/3866
 - author: SubspaceEmber
   changes:
   - message: RoboTech vend now has utility belts and two welding tools and masks.
@@ -4277,3 +4203,64 @@
   id: 1930
   time: '2025-12-08T09:01:15.0000000+00:00'
   url: https://github.com/DeltaV-Station/Delta-v/pull/4875
+- author: SirSmith148
+  changes:
+  - message: Incorporated Glimmer within the new Xenoarchaeology system
+    type: Tweak
+  id: 1931
+  time: '2025-12-08T04:11:00.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/4486
+- author: ShepardToTheStars, gluesniffler
+  changes:
+  - message: Harpies can now take flight!
+    type: Add
+  id: 1932
+  time: '2025-12-08T13:58:53.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/4888
+- author: Dorragon
+  changes:
+  - message: Rat kings and xenos now see in the dark
+    type: Add
+  id: 1933
+  time: '2025-12-08T14:34:58.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/4881
+- author: BunglesnortBoss
+  changes:
+  - message: Salvage Cyborg's now have new laws! Give em' a read! Credit to AirlineFood
+      for the actual laws.
+    type: Tweak
+  id: 1934
+  time: '2025-12-08T14:37:23.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/4866
+- author: cmorley191
+  changes:
+  - message: '"Impossible" arti trigger combinations (like low+high pressure) will
+      no longer appear on artifacts.'
+    type: Tweak
+  id: 1935
+  time: '2025-12-08T14:47:08.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/4740
+- author: cmorley191
+  changes:
+  - message: The handheld Node Scanner tool has new artifact information available
+    type: Add
+  id: 1936
+  time: '2025-12-08T14:48:49.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/4814
+- author: ShepardToTheStars
+  changes:
+  - message: All syndicate cyborg ghost roles now spawn with a neuroling rather than
+      a positronic brain.
+    type: Tweak
+  id: 1937
+  time: '2025-12-08T15:33:15.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/4913
+- author: ShepardToTheStars
+  changes:
+  - message: Feroxi now can sense containers and puddles of blood, and people who
+      are bleeding, except Diona and Slime people, since they bleed sap and slime
+      respectively (and that's not blood!).
+    type: Add
+  id: 1938
+  time: '2025-12-08T15:34:22.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/4902
