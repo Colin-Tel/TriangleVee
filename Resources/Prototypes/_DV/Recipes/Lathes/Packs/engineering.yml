@@ -3,7 +3,8 @@
 - type: latheRecipePack
   id: EngineeringStaticDeltaV
   recipes:
-  - HoloprojectorEngineering
+  - HolotapeProjector
+  - SheetPlasteel1Engineering
 
 ## Dynamic
 

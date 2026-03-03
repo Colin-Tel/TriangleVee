@@ -70,6 +70,9 @@
   id: CartridgeMusket #For the Craftable Musket
 
 - type: Tag
+  id: ChemicalMedipen # Storage blacklist: CigPackBase
+
+- type: Tag
   id: ChitinSharkminnow
 
 - type: Tag
@@ -133,6 +136,9 @@
   id: MagazinePistolSpecial # For the .38 special ammo and pistol
 
 - type: Tag
+  id: MagazineMagnumSubMachineGun
+
+- type: Tag
   id: MagazineUniversalMagnum
 
 - type: Tag
@@ -178,7 +184,7 @@
   id: SpeedLoaderSpecial
 
 - type: Tag
-  id: Vial
+  id: Vial # Storage Blacklist: CigPackBase
 
 - type: Tag
   id: Wakizashi
