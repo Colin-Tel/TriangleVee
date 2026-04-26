@@ -967,4 +967,15 @@
   id: 112
   time: '2026-04-16T01:30:23.0000000+00:00'
   url: https://github.com/DeltaV-Station/Delta-v/pull/5536
+- author: FieldCommand
+  changes:
+  - message: 'Pebble: The station RPG have been removed.'
+    type: Remove
+  - message: 'Pebble: Arrivals have been fully reworked. Perma has a fishing spot.
+      All escape pods have been changed out. Logistics has a circuit printer behind
+      LO access.'
+    type: Tweak
+  id: 113
+  time: '2026-04-19T18:29:34.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/5686
 Order: 3
