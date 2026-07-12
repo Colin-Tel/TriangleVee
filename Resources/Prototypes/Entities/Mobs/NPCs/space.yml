@@ -285,8 +285,6 @@
   parent: MobSpaceBasic
   description: Long fangs and a glowing hood, and the alluring look begs to come closer.
   components:
-    - type: Body # Shitmed Change
-      prototype: SpaceCobra
     - type: Sprite
       drawdepth: Mobs
       sprite: Mobs/Animals/spacecobra.rsi
@@ -366,6 +364,12 @@
       radius: 1.1
       energy: 2.7
       color: "#4faffb"
+    - type: Stealth
+      enabledOnDeath: false
+      maxVisibility: 1.2
+    - type: StealthOnMove
+      passiveVisibilityRate: -0.25
+      movementVisibilityRate: 0.25
 
 - type: entity
   id: MobCobraSpaceSalvage
@@ -375,23 +379,26 @@
     - type: SalvageMobRestrictions
 
 - type: entity
-  parent: SimpleSpaceMobBase
+  parent:
+  - SimpleSpaceMobBase
+  - BaseMobAnimal
+  - DVNodeCrawler # DeltaV - node crawling
   id: MobSnail
   name: snail
   description: Revolting unless you're french.
   components:
-  - type: Body
-    prototype: Mouse
-  - type: GhostRole
-    makeSentient: true
-    allowSpeech: false
-    allowMovement: true
-    name: ghost-role-information-snail-name
-    description: ghost-role-information-snail-description
-    rules: ghost-role-information-freeagent-rules
-    mindRoles:
-    - MindRoleGhostRoleFreeAgentHarmless
-  - type: GhostTakeoverAvailable
+  # Begin DeltaV Removals - players can spawn in as these at will
+  # - type: GhostRole
+  #   makeSentient: true
+  #   allowSpeech: false
+  #   allowMovement: true
+  #   name: ghost-role-information-snail-name
+  #   description: ghost-role-information-snail-description
+  #   rules: ghost-role-information-freeagent-rules
+  #   mindRoles:
+  #   - MindRoleGhostRoleFreeAgentHarmless
+  # - type: GhostTakeoverAvailable
+  # End DeltaV Removals - players can spawn in as these at will
   - type: Emoting
   - type: Sprite
     drawdepth: SmallMobs
@@ -547,10 +554,12 @@
   id: MobSnailSpeed
   suffix: Speed
   components:
-  - type: GhostRole
-    name: ghost-role-information-snailspeed-name
-    description: ghost-role-information-snailspeed-description
-    rules: ghost-role-information-freeagent-rules
+  # Begin DeltaV Removals - players can spawn in as these at will
+  # - type: GhostRole
+  #   name: ghost-role-information-snailspeed-name
+  #   description: ghost-role-information-snailspeed-description
+  #   rules: ghost-role-information-freeagent-rules
+  # End DeltaV Removals - players can spawn in as these at will
   - type: Sprite
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
@@ -570,16 +579,16 @@
   - type: MovementAlwaysTouching
 
 - type: entity
-  parent: MobSnail
+  parent: [ BaseMobMothroach, MobSnail ]
   id: MobSnailMoth
   name: Snoth
   components:
-  - type: Body
-    prototype: Mothroach
-  - type: GhostRole
-    name: ghost-role-information-snoth-name
-    description: ghost-role-information-snoth-description
-    rules: ghost-role-information-freeagent-rules
+  # Begin DeltaV Removals - players can spawn in as these at will
+  # - type: GhostRole
+  #   name: ghost-role-information-snoth-name
+  #   description: ghost-role-information-snoth-description
+  #   rules: ghost-role-information-freeagent-rules
+  # End DeltaV Removals - players can spawn in as these at will
   - type: Sprite
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
